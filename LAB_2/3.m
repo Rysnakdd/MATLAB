@@ -28,8 +28,7 @@ function array = genArray(x)
       array(i) = input(sprintf('A[%d] = ', i));
     
    end
-   disp('Отримано такий масив:');
-   fprintf('%s = \n\n',x);
+   fprintf('Отримано такий масив:\n\n%s = ',x);
    disp(array);
 end
     
